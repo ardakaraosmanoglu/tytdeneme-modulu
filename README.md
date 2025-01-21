@@ -1,165 +1,91 @@
-```markdown
-# TYT Deneme Modülü
+# TYT Deneme Modülü 📚
 
-![License](https://img.shields.io/badge/license-Proprietary-blue.svg)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-yellow.svg)
+## Proje Hakkında
+**TYT Deneme Modülü**, öğrencilerin TYT sınavına hazırlanmasına yardımcı olan kapsamlı bir online test ve değerlendirme platformudur. Bu sistem, öğrencilerin pratik yapmasını, performanslarını takip etmesini ve gelişim alanlarını belirlemesini sağlar.
 
-## İçindekiler
-- [Proje Adı](#proje-adı)
-- [Proje Açıklaması](#proje-açıklaması)
-- [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
-- [Özellikler](#özellikler)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Dosya Yapısı](#dosya-yapısı)
-- [Güvenlik](#güvenlik)
-- [Lisans](#lisans)
-- [İletişim](#iletişim)
+## Özellikler ✨
+- 📝 **Online TYT Deneme Sınavları:** Gerçek sınav ortamında pratik yapma imkanı.
+- 📊 **Detaylı Performans Analizi:** Sınav sonuçlarınızı ayrıntılı olarak inceleyin.
+- 📈 **Kişisel Gelişim Takibi:** Gelişim sürecinizi adım adım takip edin.
+- 🎯 **Konu Bazlı Değerlendirme:** Belirli konular üzerinde odaklanarak çalışın.
+- 👥 **Online Katılım Desteği:** Canlı destek ve topluluk etkileşimi.
+- 📱 **Mobil Uyumlu Arayüz:** Her cihazdan kolay erişim.
 
-## Proje Adı
-**TYT Deneme Modülü**
-
-## Proje Açıklaması
-TYT Deneme Modülü, öğrencilerin TYT sınavına hazırlık sürecinde performanslarını takip etmelerini ve değerlendirmelerini sağlayan web tabanlı bir sistemdir. Kullanıcılar, telefon numaralarını girerek sınav sonuçlarına erişebilir, detaylı analizler ve grafiklerle performanslarını gözlemleyebilirler.
-
-## Kullanılan Teknolojiler
-- **Frontend:**
-  - HTML5
-  - CSS3
-  - JavaScript
-  - Chart.js
-- **Backend:**
-  - PHP
-  - MySQL
-- **Diğer:**
-  - Composer
-  - Modern web teknolojileri ve kütüphaneleri
-
-## Özellikler
-- **Sonuç Sorgulama:** Telefon numarası girilerek sınav sonuçlarına hızlı erişim.
-- **Detaylı Analizler:** Doğru, yanlış ve net sayılarıyla birlikte detaylı performans analizi.
-- **Grafiksel Görselleştirme:** TYT puanları, net analizleri ve sıralama analizlerini görsel grafiklerle sunma.
-- **Sınav Seçimi:** Farklı deneme sınavlarının sonuçlarını karşılaştırma imkanı.
-- **Kullanıcı Dostu Arayüz:** Basit ve anlaşılır tasarım ile kolay kullanım.
-
-## Kurulum
-### Ön Koşullar
-- PHP 7.4 veya üzeri
-- MySQL Veritabanı
-- Web Sunucusu (Apache veya Nginx)
-- Composer Paket Yöneticisi
-
-### Adım Adım Kurulum
-1. **Depoyu Klonlayın:**
+## Kurulum 🚀
+1. **Projeyi Klonlayın:**
     ```bash
-    git clone https://github.com/kullanici/tytdeneme_modulu.git
+    git clone https://github.com/kullaniciAdi/tyt-deneme-modulu.git
     ```
 2. **Gerekli Bağımlılıkları Yükleyin:**
     ```bash
-    cd tytdeneme_modulu
-    composer install
+    cd tyt-deneme-modulu
+    npm install
     ```
-3. **Veritabanını Ayarlayın:**
-    - `api.php` dosyasında veritabanı bağlantı bilgilerini güncelleyin.
-    - Gerekli veritabanı tablolarını oluşturun.
-4. **Web Sunucusunu Yapılandırın:**
-    - Proje dizinini web sunucunuzun kök dizini olarak ayarlayın.
-    - Gerekli izinleri verin.
+3. **Ortam Değişkenlerini Ayarlayın:**
+    `.env` dosyasını oluşturun ve gerekli değişkenleri ekleyin.
+4. **Veritabanını Kurun:**
+    ```bash
+    npm run migrate
+    ```
 5. **Uygulamayı Başlatın:**
-    - Web tarayıcınızda projenin URL'sine giderek uygulamayı kullanmaya başlayın.
+    ```bash
+    npm start
+    ```
 
-## Kullanım
-1. **Telefon Numarası Girin:**
-    - Ana sayfada bulunan arama kutusuna telefon numaranızı girin (örnek: `5XX XXX XX XX`).
-2. **Sonuçları Görüntüleyin:**
-    - "Sorgula" butonuna tıklayarak sınav sonuçlarını görüntüleyin.
-3. **Analizleri İnceleyin:**
-    - Öğrenci bilgileri, sınav sıralamaları ve ders bazlı net analizlerini inceleyin.
-    - Grafik sekmelerinden performansınızı görsel olarak analiz edin.
-4. **Sınav Seçimi Yapın:**
-    - Farklı deneme sınavlarını seçerek performansınızı karşılaştırın.
+## Kullanım 💡
+1. **Sisteme Giriş Yapın**
+2. **İstediğiniz Deneme Sınavını Seçin**
+3. **Sınavı Başlatın ve Soruları Yanıtlayın**
+4. **Sınav Sonunda Detaylı Analiz Raporunuzu Görüntüleyin**
 
-![Uygulama Ekran Görüntüsü](path/to/screenshot.png)
+## Sistem Gereksinimleri 🖥️
+- **Web Tarayıcısı:** Modern tarayıcılar (Chrome, Firefox, Safari, Edge)
+- **İnternet Bağlantısı**
+- **RAM:** Minimum 2GB
+- **İşletim Sistemi:** Herhangi bir OS (Windows, macOS, Linux)
 
-## Dosya Yapısı
-```
-tytdeneme_modulu/
-├── api/
-│   └── api.php             # API endpoint'leri
-├── cache/                  # Önbellek dosyaları
-├── js/
-│   ├── tytChart.js         # TYT Puanları Grafiği
-│   ├── turkceNetChart.js   # Türkçe Net Grafiği
-│   ├── sosyalNetChart.js   # Sosyal Net Grafiği
-│   ├── matematikNetChart.js# Matematik Net Grafiği
-│   ├── fenNetChart.js      # Fen Net Grafiği
-│   ├── personalNetAnalysisChart.js    # Kişisel Net Analizi Grafiği
-│   ├── personalRankAnalysisChart.js   # Kişisel Sıralama Analizi Grafiği
-│   └── personalScoreAnalysisChart.js  # Kişisel Puan Analizi Grafiği
-├── vendor/                 # Composer bağımlılıkları
-├── exports/                # Dışa aktarım dosyaları
-├── logs/                   # Log dosyaları
-├── index.html              # Ana HTML dosyası
-├── style.css               # Genel stil dosyası
-├── mobile-table-fix.css    # Mobil tablo düzenleme stil dosyası
-├── chart-styles.css        # Grafik stil dosyası
-├── ranking-tables.css      # Sıralama tabloları stil dosyası
-└── README.md               # Bu dosya
-```
+## Teknik Detaylar 🛠️
+- **Frontend:** [React, Vue.js, Angular]
+- **Backend:** [Node.js, Django, Ruby on Rails]
+- **Veritabanı:** [PostgreSQL, MongoDB, MySQL]
+- **API:** RESTful API, GraphQL
 
-- **api/**: API endpoint'lerinin bulunduğu klasör.
-- **js/**: JavaScript dosyalarının bulunduğu klasör.
-- **vendor/**: Composer ile yüklenen bağımlılıkların bulunduğu klasör.
-- **exports/**: Dışa aktarım işlemleri için kullanılan dosyalar.
-- **logs/**: Uygulama loglarının tutulduğu klasör.
-- **index.html**: Uygulamanın ana HTML dosyası.
-- **style.css**: Uygulamanın genel stil dosyası.
-- **mobile-table-fix.css**: Mobil cihazlar için tablo düzenlemeleri.
-- **chart-styles.css**: Grafiklerin stil ayarları.
-- **ranking-tables.css**: Sıralama tablolarının stil ayarları.
+## Güvenlik 🔒
+- **SSL/TLS Şifreleme**
+- **Güvenli Oturum Yönetimi**
+- **Veri Şifreleme**
+- **GDPR Uyumlu Veri İşleme**
 
-## Güvenlik
-- **Yetkilendirme:** Sistem, sadece yetkili kullanıcıların erişimine izin verir.
-- **Veri Şifreleme:** Tüm hassas veriler şifreli olarak saklanır.
-- **Güncellemeler:** Yazılım düzenli olarak güvenlik yamaları ve güncellemeleri ile güncellenir.
-- **Veritabanı Güvenliği:** SQL enjeksiyonlarına karşı önlemler alınmıştır.
+## Katkıda Bulunma 🤝
+Katkıda bulunmak istiyorsanız, aşağıdaki adımları takip edebilirsiniz:
+1. **Repository'yi Fork Edin**
+2. **Feature Branch Oluşturun:**
+    ```bash
+    git checkout -b feature/YeniOzellik
+    ```
+3. **Değişikliklerinizi Commit Edin:**
+    ```bash
+    git commit -m 'Yeni özellik eklendi'
+    ```
+4. **Branch'inizi Push Edin:**
+    ```bash
+    git push origin feature/YeniOzellik
+    ```
+5. **Pull Request Oluşturun**
 
-## Lisans
-Bu proje özel lisanslıdır ve tüm hakları saklıdır. Kaynak kodunun kopyalanması, dağıtılması veya değiştirilmesi yasaktır.
+## Sürüm Geçmişi 📋
+### v1.0.0 (21.01.2025)
+- İlk sürüm yayınlandı
+- Online katılım modülü eklendi
+- Temel özellikler implementasyonu
 
-## İletişim
-Projeyle ilgili sorularınız veya geri bildirimleriniz için lütfen aşağıdaki iletişim bilgilerinden bana ulaşın:
+## Lisans 📄
+Bu proje **[LİSANS ADI]** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
 
-- **İsim:** [Adınız Soyadınız]
-- **Email:** [email@example.com]
-- **LinkedIn:** [linkedin.com/in/adiniz](https://linkedin.com/in/adiniz)
+## İletişim 📧
+- **Proje Sorumlusu:** [İsim]
+- **E-posta:** [E-posta adresi]
+- **Website:** [Website adresi]
 
----
-
-© 2025 TYT Deneme Modülü. Tüm hakları saklıdır.
-```
-
----
-
-### Açıklama
-
-- **Başlık ve Rozetler:** Proje adı ve lisans, sürüm bilgileri gibi önemli bilgiler rozetlerle belirtilmiştir.
-- **İçindekiler:** README'nin büyük olması durumunda kullanıcıların kolayca gezinmesini sağlar.
-- **Proje Açıklaması:** Projenin amacı ve temel işlevleri hakkında kısa ve net bir özet sunar.
-- **Kullanılan Teknolojiler:** Projede kullanılan tüm teknolojiler madde işaretleriyle listelenmiştir.
-- **Özellikler:** Projenin sunduğu ana özellikler ayrıntılı olarak açıklanmıştır.
-- **Kurulum:** Projeyi yerel ortamda çalıştırmak için gereken adımlar detaylandırılmıştır.
-- **Kullanım:** Uygulamanın nasıl kullanılacağı adım adım anlatılmıştır.
-- **Dosya Yapısı:** Projenin klasör ve dosya yapısı şematik olarak gösterilmiştir.
-- **Güvenlik:** Projenin güvenlik önlemleri hakkında bilgi verilmiştir.
-- **Lisans:** Projenin lisans durumu açıkça belirtilmiştir.
-- **İletişim:** Kullanıcıların proje hakkında daha fazla bilgi alabilecekleri iletişim bilgileri sağlanmıştır.
-
-### Ek İpuçları
-
-- **Ekran Görüntüleri:** `![Uygulama Ekran Görüntüsü](path/to/screenshot.png)` etiketi ile projeye ait ekran görüntülerini README'ye ekleyebilirsiniz. Bu görselleri projenizin `images/` klasörüne koyup yolunu güncelleyebilirsiniz.
-- **Videolar:** Projeyi tanıtan kısa videolar varsa, README'ye ekleyerek kullanıcı deneyimini artırabilirsiniz.
-- **Bağlantılar:** README'deki bağlantıları (örneğin, LinkedIn profili, dokümantasyon) güncel ve doğru URL'lerle değiştirdiğinizden emin olun.
-
-Bu README.md dosyasını projenizin kök dizininde `README.md` adıyla oluşturabilir ve gerektiğinde özelleştirebilirsiniz. Eğer eklemek istediğiniz başka bölümler veya değişiklikler varsa, lütfen bana bildirin.
+## Teşekkürler 💖
+Bu projeye katkıda bulunan herkese teşekkür ederiz.
