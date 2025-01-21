@@ -1,17 +1,34 @@
 # TYT Deneme Modülü 📚
 
 ## Proje Hakkında
-**TYT Deneme Modülü**, öğrencilerin TYT sınavına hazırlanmasına yardımcı olan kapsamlı bir online test ve değerlendirme platformudur. Bu sistem, öğrencilerin pratik yapmasını, performanslarını takip etmesini ve gelişim alanlarını belirlemesini sağlar.
+**TYT Deneme Modülü**, **BesyoGüncel** mobil uygulamasına entegre edilmiş kapsamlı bir ek modüldür. Bu modül, kurumların farklı illerdeki çeşitli eğitim kurumlarıyla ortaklaşa düzenlediği geniş çaplı TYT Deneme sınavlarının sonuçlarını tek bir platformda toplayarak hem öğrencilere hem de kurumlara değerli bilgiler sunmayı amaçlamaktadır.
+
+**Ana Amaçlar:**
+- **Öğrenciler için:**
+  - TYT Deneme sınav sonuçlarını detaylıca görüntüleme
+  - Yapay Zeka destekli kişisel tavsiyeler alma
+  - Kendi performanslarını tüm öğrenciler arasında kıyaslama imkanı
+  - Online sınavlara katılarak fiziksel sınav merkezlerine gitmeden pratik yapma
+
+- **Kurumlar için:**
+  - Öğrenciler hakkında özel ve detaylı bilgiler sağlama
+  - Öğrenci destek süreçlerini iyileştirme
+  - Geniş çaplı sınav verilerini merkezi bir modülde toplama
 
 ## Özellikler ✨
-- 📝 **Online TYT Deneme Sınavları:** Gerçek sınav ortamında pratik yapma imkanı.
-- 📊 **Detaylı Performans Analizi:** Sınav sonuçlarınızı ayrıntılı olarak inceleyin.
-- 📈 **Kişisel Gelişim Takibi:** Gelişim sürecinizi adım adım takip edin.
-- 🎯 **Konu Bazlı Değerlendirme:** Belirli konular üzerinde odaklanarak çalışın.
-- 👥 **Online Katılım Desteği:** Canlı destek ve topluluk etkileşimi.
-- 📱 **Mobil Uyumlu Arayüz:** Her cihazdan kolay erişim.
+- 📝 **Online TYT Deneme Sınavları:** Geniş kapsamlı ve çok sayıda kurumla ortak düzenlenen sınavlar.
+- 📊 **Detaylı Performans Analizi:** Sınav sonuçlarınızı ayrıntılı olarak inceleyin ve güçlü yönlerinizi keşfedin.
+- 🤖 **AI Destekli Kişisel Tavsiyeler:** Yapay zeka ile kişisel gelişiminiz için özel öneriler alın.
+- 📈 **Kişisel Gelişim Takibi:** Gelişim sürecinizi adım adım takip edin ve hedeflerinize ulaşın.
+- 🎯 **Konu Bazlı Değerlendirme:** Belirli konular üzerinde odaklanarak çalışın ve eksiklerinizi giderin.
+- 👥 **Online Katılım Desteği:** Canlı destek ve topluluk etkileşimi ile öğrenme deneyiminizi zenginleştirin.
+- 📱 **Mobil Uyumlu Arayüz:** Her cihazdan kolay erişim ile sınavlara her yerden katılın.
+- 📊 **Performans Karşılaştırmaları:** Kendi durumunuzu tüm öğrenciler arasında kıyaslayarak konumunuzu belirleyin.
+- 🔒 **Güvenli Veri Yönetimi:** Öğrenci ve kurum verilerinin güvenliği için üst düzey önlemler.
 
 ## Kurulum 🚀
+Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanmıştır. Aşağıdaki adımları takip ederek modülü kurabilirsiniz:
+
 1. **Projeyi Klonlayın:**
     ```bash
     git clone https://github.com/kullaniciAdi/tyt-deneme-modulu.git
@@ -19,45 +36,61 @@
 2. **Gerekli Bağımlılıkları Yükleyin:**
     ```bash
     cd tyt-deneme-modulu
-    npm install
+    composer install
     ```
 3. **Ortam Değişkenlerini Ayarlayın:**
     `.env` dosyasını oluşturun ve gerekli değişkenleri ekleyin.
 4. **Veritabanını Kurun:**
     ```bash
-    npm run migrate
+    php artisan migrate
     ```
 5. **Uygulamayı Başlatın:**
     ```bash
-    npm start
+    php artisan serve
     ```
 
 ## Kullanım 💡
 1. **Sisteme Giriş Yapın**
 2. **İstediğiniz Deneme Sınavını Seçin**
 3. **Sınavı Başlatın ve Soruları Yanıtlayın**
-4. **Sınav Sonunda Detaylı Analiz Raporunuzu Görüntüleyin**
+4. **Sınav Sonunda Detaylı Analiz Raporunuzu ve AI Tavsiyelerinizi Görüntüleyin**
+5. **Performansınızı Diğer Öğrencilerle Kıyaslayın**
 
 ## Sistem Gereksinimleri 🖥️
-- **Web Tarayıcısı:** Modern tarayıcılar (Chrome, Firefox, Safari, Edge)
-- **İnternet Bağlantısı**
-- **RAM:** Minimum 2GB
-- **İşletim Sistemi:** Herhangi bir OS (Windows, macOS, Linux)
+- **PHP:** 7.4 veya üzeri
+- **Web Sunucusu:** Apache veya Nginx
+- **Veritabanı:** MySQL
+- **Paket Yöneticisi:** Composer
+- **Diğer Gereksinimler:**
+  - Modern web tarayıcısı (Chrome, Firefox, Safari, Edge)
+  - İnternet bağlantısı
+  - Minimum 2GB RAM
+  - Herhangi bir işletim sistemi (Windows, macOS, Linux)
 
 ## Teknik Detaylar 🛠️
-- **Frontend:** [React, Vue.js, Angular]
-- **Backend:** [Node.js, Django, Ruby on Rails]
-- **Veritabanı:** [PostgreSQL, MongoDB, MySQL]
-- **API:** RESTful API, GraphQL
+- **Frontend:**
+  - PHP
+  - HTML5/CSS3
+  - JavaScript
+  - Composer
+  - Modern web teknolojileri ve kütüphaneleri
+- **Backend:**
+  - [Backend teknolojileri buraya eklenmeli]
+- **Veritabanı:**
+  - MySQL
+- **API:**
+  - RESTful API
+  - [Diğer API detayları buraya eklenmeli]
 
 ## Güvenlik 🔒
-- **SSL/TLS Şifreleme**
-- **Güvenli Oturum Yönetimi**
-- **Veri Şifreleme**
-- **GDPR Uyumlu Veri İşleme**
+- **SSL/TLS Şifreleme:** Tüm veri iletimleri güvenli bir şekilde şifrelenir.
+- **Güvenli Oturum Yönetimi:** Kullanıcı oturumları güvenli bir şekilde yönetilir.
+- **Veri Şifreleme:** Hassas veriler şifrelenerek saklanır.
+- **GDPR Uyumlu Veri İşleme:** Kullanıcı verileri GDPR standartlarına uygun şekilde işlenir.
 
 ## Katkıda Bulunma 🤝
 Katkıda bulunmak istiyorsanız, aşağıdaki adımları takip edebilirsiniz:
+
 1. **Repository'yi Fork Edin**
 2. **Feature Branch Oluşturun:**
     ```bash
