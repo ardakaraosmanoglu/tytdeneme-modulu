@@ -37,7 +37,7 @@ Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanm
 
 ## Sistem Gereksinimleri 🖥️
 - **Cihaz:** Herhangi bir modern cihaz (PC, Mac, tablet, veya akıllı telefon)
-- ** Tarayıcı:** Modern web tarayıcısı (Chrome, Firefox, Safari, Edge)
+- **Tarayıcı:** Modern web tarayıcısı (Chrome, Firefox, Safari, Edge)
  
 ## Sistem Detayları 🖥️
 - **PHP:** 8.1
