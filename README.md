@@ -164,8 +164,7 @@ Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanm
 8. **Kurs Öğrenci Tablosu Sayfası: "Kurs Öğrenci Performansı"**  
    ![Kurs Öğrenci Tablosu Görseli](https://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)
 
-9. **TYT Veri Analizi Sayfası: "TYT Veri Analizi ve Ortalamalar"**  
-   ![TYT Veri Analizi Görseli](https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg)
+9. **TYT Veri Analizi Sayfası: "TYT Veri Analizi ve Ortalamalar": https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
    
 ## Lisans 📄
 Bu proje **Proprietary** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
