@@ -129,14 +129,21 @@ Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanm
 - **Fonksiyonlar**:
   - Kod doğrulama ve giriş yönlendirme.
   - Hatalı girişlerde uyarı sistemi.
-  - 
-### 9. Admin Ekranı
+
+### 10. Online Deneme Katılım Ekranı
+- **Tanım**: Kullanıcıların online olarak tyt deneme sınavlarına katılım yapmasını sağlar.
+- **Fonksiyonlar**:
+  - Sınav PDF Dosyası görüntüleme ve indirme.
+  - Kişisel bilgileri ile sonuçları gönderme.
+    
+### 11. Admin Ekranı
 - **Tanım**: Admin giriş ve verilerin yönetimini sağlar.
 - **Fonksiyonlar**:
   - Yetki doğrulama ve giriş.
   - Sınav sonuçları excelden yükleme ve tüm verileri silme.
   - Veriler arası arama ve filtreleme.
   - Verileri detaylı düzenleme ve silme.
+  - Online Sınav Ekleme/Silme ve Online Sınav Sonuçları Görüntüleme
     
 ## Sürüm Geçmişi 📋
 ### v1.0.0 (21.01.2025)
