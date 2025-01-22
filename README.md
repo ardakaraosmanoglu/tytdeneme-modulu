@@ -129,7 +129,15 @@ Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanm
 - **Fonksiyonlar**:
   - Kod doğrulama ve giriş yönlendirme.
   - Hatalı girişlerde uyarı sistemi.
-
+  - 
+### 9. Admin Ekranı
+- **Tanım**: Admin giriş ve verilerin yönetimini sağlar.
+- **Fonksiyonlar**:
+  - Yetki doğrulama ve giriş.
+  - Sınav sonuçları excelden yükleme ve tüm verileri silme.
+  - Veriler arası arama ve filtreleme.
+  - Verileri detaylı düzenleme ve silme.
+    
 ## Sürüm Geçmişi 📋
 ### v1.0.0 (21.01.2025)
 - İlk sürüm yayınlandı
