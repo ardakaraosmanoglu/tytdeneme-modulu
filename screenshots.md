@@ -1,69 +1,82 @@
-1. Ana Sayfa (TYT Sonuç Sistemi Giriş)
-Özellikler:
-Kullanıcıyı sade bir arayüz ile karşılar.
-Dört ana seçenek sunar:
-Sınav Sonuçlarım
-Sonuçlarını Al ile Analiz Et
-Kurum Sıralama
-Genel Sıralama
-Kullanıcı dostu buton tasarımı ve gradient efektleri ile görsellik ön planda tutulmuştur.
-Fonksiyonlar:
-Seçilen her buton, kullanıcıyı ilgili analiz veya sonuç ekranına yönlendirir.
-Hızlı erişim için optimize edilmiştir.
-2. TYT Sonuç Sorgulama
-Özellikler:
-Kullanıcıdan telefon numarası bilgisi alır.
-Minimalist tasarım, gereksiz bilgi kirliliğini engeller.
-Fonksiyonlar:
-Kullanıcının telefon numarasını doğruladıktan sonra ilgili sonuçları yükler.
-Dinamik hata yönetimi ile hatalı girişler anında kullanıcıya bildirilir.
-3. Öğrenci Detayları
-Özellikler:
-Kullanıcının kişisel sıralama ve puan detaylarını gösterir.
-Genel ve kurum sıralamalarını, TYT puanını, katılımcı sayılarını içerir.
-Fonksiyonlar:
-Dinamik olarak sınav seçimi yapılabilir.
-Seçilen sınava ait doğru/yanlış verileri anlık olarak güncellenir.
-Performans grafiklerine erişim sağlar.
-4. Performans Grafik Ekranı
-Özellikler:
-Kullanıcının TYT puanlarını ve netlerini görselleştiren interaktif grafikler içerir.
-Grafikler; Türkçe, Matematik, Sosyal ve Fen derslerine özel performans analizi sunar.
-Fonksiyonlar:
-Kullanıcı, grafikler arasında hızlı geçiş yapabilir.
-Veriler, kurs ve genel ortalamalar ile kıyaslanır.
-5. Kurum Sıralama
-Özellikler:
-Seçilen sınava göre kuruma özel sıralamayı gösterir.
-Listeleme özelliği ile kullanıcılar, katılımcıların net bilgilerini görüntüleyebilir.
-Fonksiyonlar:
-Arama ve sayfa başına kayıt sayısı gibi filtreleme seçenekleri içerir.
-Kurs bazlı detaylı sıralama raporları oluşturur.
-6. Genel Sıralama
-Özellikler:
-Tüm kullanıcıları kapsayan genel sıralamayı görüntüler.
-Sıralama, Türkçe ve Sosyal net bilgilerini detaylı olarak sunar.
-Fonksiyonlar:
-Kullanıcı, tablo üzerinde filtreleme ve sıralama işlemleri yapabilir.
-Yüksek performanslı sorgu mekanizması ile veriler hızlıca yüklenir.
-7. TYT Veri Analizi
-Özellikler:
-Kurs ve genel ortalamalara dayalı performans trendlerini görselleştirir.
-TYT puan ve net ortalamalarını grafiklerle detaylı olarak sunar.
-Fonksiyonlar:
-En iyi kurs puanı ve net bilgileri kullanıcıya kıyaslama olanağı sağlar.
-Kullanıcı, grafikler üzerinden performansını detaylı bir şekilde analiz edebilir.
-8. Kurs Öğrenci Tablosu
-Özellikler:
-Kursa kayıtlı öğrencilerin detaylı net bilgilerini içerir.
-İsim ve net bilgileri renklendirme ile öne çıkarılmıştır.
-Fonksiyonlar:
-Öğrenciler arasında arama yapılabilir.
-Sayfa numarası üzerinden hızlı gezinti desteklenir.
-9. Kurs Giriş Ekranı
-Özellikler:
-Kullanıcıların kurs erişim kodları ile sisteme giriş yapmasını sağlar.
-Basit ve net bir tasarım ile kullanıcıların işlevselliğe odaklanması hedeflenmiştir.
-Fonksiyonlar:
-Giriş yapılan kod doğrulanarak kullanıcıyı ilgili kurs ekranına yönlendirir.
-Hatalı girişlerde bilgilendirme yapılır.
+# TYT Sonuç Sistemi
+
+TYT Sonuç Sistemi, kullanıcıların TYT sınav sonuçlarını analiz etmesine, sıralamalarını ve performanslarını değerlendirmesine olanak tanıyan modern ve kullanıcı dostu bir platformdur.
+
+## Özellikler
+
+### 1. Ana Sayfa (TYT Sonuç Sistemi Giriş)
+- **Tanım**: Kullanıcıyı karşılayan giriş ekranıdır.
+- **Fonksiyonlar**:
+  - 4 ana seçenek sunar:
+    - Sınav Sonuçlarım
+    - Sonuçlarını Al ile Analiz Et
+    - Kurum Sıralama
+    - Genel Sıralama
+
+### 2. TYT Sonuç Sorgulama
+- **Tanım**: Telefon numarasıyla sınav sonuçlarını görüntülemek için tasarlanmıştır.
+- **Fonksiyonlar**:
+  - Telefon numarası doğrulama.
+  - Hatalı girişlerde uyarı mesajları.
+
+### 3. Öğrenci Detayları
+- **Tanım**: Kullanıcının genel sıralama, kurum sıralaması, TYT puanı ve katılımcı sayısı gibi bilgilerini gösterir.
+- **Fonksiyonlar**:
+  - Dinamik sınav seçimi.
+  - Performans grafiklerine erişim.
+
+### 4. Performans Grafik Ekranı
+- **Tanım**: Kullanıcının TYT puanlarını ve ders bazlı net analizlerini görselleştirir.
+- **Fonksiyonlar**:
+  - Türkçe, Matematik, Sosyal ve Fen dersleri için ayrı grafikler.
+  - Kurs ve genel ortalamalar ile karşılaştırma.
+
+### 5. Kurum Sıralama
+- **Tanım**: Kuruma özel sınav sıralamalarını gösterir.
+- **Fonksiyonlar**:
+  - Katılımcıların net bilgileri.
+  - Arama ve filtreleme seçenekleri.
+
+### 6. Genel Sıralama
+- **Tanım**: Tüm kullanıcıları kapsayan genel sıralamayı görüntüler.
+- **Fonksiyonlar**:
+  - Sıralama detayları ve filtreleme.
+
+### 7. TYT Veri Analizi
+- **Tanım**: Kurs ve genel ortalamalara dayalı performans analizleri sunar.
+- **Fonksiyonlar**:
+  - En iyi kurs puanı ve net bilgileri.
+  - Dinamik grafikler.
+
+### 8. Kurs Öğrenci Tablosu
+- **Tanım**: Kursa kayıtlı öğrencilerin sınav performanslarını listeler.
+- **Fonksiyonlar**:
+  - Öğrenciler arası arama.
+  - Listeleme ve sıralama.
+
+### 9. Kurs Giriş Ekranı
+- **Tanım**: Kullanıcıların kurs erişim kodlarıyla giriş yapmasını sağlar.
+- **Fonksiyonlar**:
+  - Kod doğrulama ve giriş yönlendirme.
+  - Hatalı girişlerde uyarı sistemi.
+
+---
+
+## Görseller ve Linkler
+
+Her ekrana ait görseller aşağıda belirtilmiştir:
+
+1. **TYT Sonuç Giriş Ekranı**  
+   ![Görsel 1](http://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)
+
+2. **Sonuç Analiz Ekranı**  
+   ![Görsel 2](http://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg)
+
+3. **Performans Grafik Ekranı**  
+   ![Görsel 3](http://cdn.raxana.net/photos/679102f1481ee_tytdeneme-modul-9.jpeg)
+
+4. **Genel Sıralama ve Veri Analizi**  
+   ![Görsel 4](http://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg)
+
+5. **Kurs Sıralama ve Öğrenci Tablosu**  
+   ![Görsel 5](http://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg)
