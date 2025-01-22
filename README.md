@@ -98,16 +98,16 @@ Her ekrana ait görseller aşağıda belirtilmiştir:
    ![Görsel 7]([http://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg](https://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg))
 
 7. **Genel Sıralama Sayfası: "Genel Sıralama Tablosu"**  
-   ![Görsel 5]([http://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg](https://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg))
+   ![Görsel 8]([http://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg](https://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg))
    
 9. **Kurs Giriş Sayfası: "Kurs Giriş - Erişim Kodunuzu Girin"**
-   ![Görsel 5]([https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg](https://cdn.raxana.net/photos/679102f1481ee_tytdeneme-modul-9.jpeg)) 
+   ![Görsel 9]([https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg](https://cdn.raxana.net/photos/679102f1481ee_tytdeneme-modul-9.jpeg)) 
 
 9. **Kurs Öğrenci Tablosu Sayfası: "Kurs Öğrenci Performansı"**
-   ![Görsel 5]([https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg](https://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)) 
+   ![Görsel 10]([https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg](https://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)) 
 
 10. **TYT Veri Analizi Sayfası: "TYT Veri Analizi ve Ortalamalar"**
-   ![Görsel 5]([https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg](https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg)) 
+   ![Görsel 11]([https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg](https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg)) 
    
 ## Özellikler
 
