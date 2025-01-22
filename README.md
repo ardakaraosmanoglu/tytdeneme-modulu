@@ -138,27 +138,34 @@ Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanm
 
 ## Görseller ve Linkler
 
-1. **Ana Sayfa: "TYT Sonuç Sistemi - Giriş"**: https://cdn.raxana.net/photos/679102f159835_tytdeneme-modul-2.jpeg
+1. **Ana Sayfa: "TYT Sonuç Sistemi - Giriş"**:
+2. https://cdn.raxana.net/photos/679102f159835_tytdeneme-modul-2.jpeg
 
-2. **Sonuç Sorgulama Sayfası: "TYT Sonuç Sorgulama"**: https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
+3. **Sonuç Sorgulama Sayfası: "TYT Sonuç Sorgulama"**:
+4. https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
 
-3. **Öğrenci Detayları Sayfası: "Öğrenci Detayları ve Sıralamalar"**:  
+5. **Öğrenci Detayları Sayfası: "Öğrenci Detayları ve Sıralamalar"**:  
    https://cdn.raxana.net/photos/679102f161b06_tytdeneme-modul-4.jpeg
    https://cdn.raxana.net/photos/679102f160e2f_tytdeneme-modul-5.jpeg
 
-4. **Performans Grafik Sayfası: "Performans Analizi ve Ders Bazlı Grafikler"**:  
+6. **Performans Grafik Sayfası: "Performans Analizi ve Ders Bazlı Grafikler"**:  
    https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg
    https://cdn.raxana.net/photos/679102f184fc0_tytdeneme-modul-1.jpeg
 
-5. **Kurum Sıralama Sayfası: "Kurum Bazlı Sıralama"**: https://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg
+7. **Kurum Sıralama Sayfası: "Kurum Bazlı Sıralama"**:
+8. https://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg
 
-6. **Genel Sıralama Sayfası: "Genel Sıralama Tablosu"**: https://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg
+9. **Genel Sıralama Sayfası: "Genel Sıralama Tablosu"**:
+10. https://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg
 
-7. **Kurs Giriş Sayfası: "Kurs Giriş - Erişim Kodunuzu Girin"**: https://cdn.raxana.net/photos/679102f1481ee_tytdeneme-modul-9.jpeg
+11. **Kurs Giriş Sayfası: "Kurs Giriş - Erişim Kodunuzu Girin"**:
+12. https://cdn.raxana.net/photos/679102f1481ee_tytdeneme-modul-9.jpeg
 
-8. **Kurs Öğrenci Tablosu Sayfası: "Kurs Öğrenci Performansı"**: https://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)
+13. **Kurs Öğrenci Tablosu Sayfası: "Kurs Öğrenci Performansı"**:
+14. https://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)
 
-9. **TYT Veri Analizi Sayfası: "TYT Veri Analizi ve Ortalamalar":** https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
+15. **TYT Veri Analizi Sayfası: "TYT Veri Analizi ve Ortalamalar":**
+16. https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
    
 ## Lisans 📄
 Bu proje **Proprietary** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
