@@ -1,192 +1,26 @@
-# TYT Deneme Modülü 📚
+# Project Documentation
 
-## Proje Hakkında
-**TYT Deneme Modülü**, **BesyoGüncel** mobil uygulamasına entegre edilmiş kapsamlı bir ek modüldür. Bu modül, kurumların farklı illerdeki çeşitli eğitim kurumlarıyla ortaklaşa düzenlediği geniş çaplı TYT Deneme sınavlarının sonuçlarını tek bir platformda toplayarak hem öğrencilere hem de kurumlara değerli bilgiler sunmayı amaçlamaktadır.
+## Overview
+This repository contains documentation split across two main files:
+- `README.md`: The main documentation file
+- `screenshots.md`: A collection of screenshots and visual documentation
 
-**Ana Amaçlar:**
-- **Öğrenciler için:**
-  - TYT Deneme sınav sonuçlarını detaylıca görüntüleme
-  - Yapay Zeka destekli kişisel tavsiyeler alma
-  - Kendi performanslarını tüm öğrenciler arasında kıyaslama imkanı
-  - Online sınavlara katılarak fiziksel sınav merkezlerine gitmeden pratik yapma
+## File Structure
 
-- **Kurumlar için:**
-  - Öğrenciler hakkında özel ve detaylı bilgiler sağlama
-  - Öğrenci destek süreçlerini iyileştirme
-  - Geniş çaplı sınav verilerini merkezi bir modülde toplama
+### README.md
+The main documentation file (7.9KB) containing core project information and documentation.
 
-## Özellikler ✨
-- 📝 **Online TYT Deneme Sınavları:** Geniş kapsamlı ve çok sayıda kurumla ortak düzenlenen sınavlar.
-- 📊 **Detaylı Performans Analizi:** Sınav sonuçlarınızı ayrıntılı olarak inceleyin ve güçlü yönlerinizi keşfedin.
-- 🤖 **AI Destekli Kişisel Tavsiyeler:** Yapay zeka ile kişisel gelişiminiz için özel öneriler alın.
-- 📈 **Kişisel Gelişim Takibi:** Gelişim sürecinizi adım adım takip edin ve hedeflerinize ulaşın.
-- 👥 **Online Katılım Desteği:** Canlı destek ve topluluk etkileşimi ile öğrenme deneyiminizi zenginleştirin.
-- 📱 **Mobil Uyumlu Arayüz:** Her cihazdan kolay erişim ile sınavlara her yerden katılın.
-- 📊 **Performans Karşılaştırmaları:** Kendi durumunuzu tüm öğrenciler arasında kıyaslayarak konumunuzu belirleyin.
-- 🔒 **Güvenli Veri Yönetimi:** Öğrenci ve kurum verilerinin güvenliği için üst düzey önlemler.
+### screenshots.md 
+A separate markdown file (2.9KB) dedicated to visual documentation and screenshots, helping to keep the main README clean and focused while maintaining comprehensive visual references.
 
-## Kurulum 🚀
-Bu modül, **BesyoGüncel** mobil uygulamasına entegre edilmek üzere tasarlanmıştır. Kaynak kodları özel ve BesyoGuncel.Com'a aittir. Besyo Guncel uygulamasını indirerek modülü deneyimleyebilirsiniz.
+## File Details
+Both documentation files were created and last modified on January 26, 2025. They are written in Markdown format for optimal readability and compatibility with most documentation platforms.
 
-## Kullanım 💡
-1. **Sisteme Giriş Yapın**
-2. **İstediğiniz Deneme Sınavını Seçin**
-3. **Sınavı Başlatın ve Soruları Yanıtlayın**
-4. **Sınav Sonunda Detaylı Analiz Raporunuzu ve AI Tavsiyelerinizi Görüntüleyin**
-5. **Performansınızı Diğer Öğrencilerle Kıyaslayın**
+## Contributing
+When contributing to the documentation:
+1. Keep screenshots in the dedicated `screenshots.md` file
+2. Maintain the existing markdown formatting
+3. Update both files as needed to keep documentation in sync
 
-## Sistem Gereksinimleri 🖥️
-- **Cihaz:** Herhangi bir modern cihaz (PC, Mac, tablet, veya akıllı telefon)
-- **Tarayıcı:** Modern web tarayıcısı (Chrome, Firefox, Safari, Edge)
- 
-## Sistem Detayları 🖥️
-- **PHP:** 8.1
-- **Web Sunucusu:** OpenLiteSpeed 
-- **Veritabanı:** MySQL
-- **Paket Yöneticisi:** Composer
-- **Gereksinimler:**
-  - Modern web tarayıcısı (Chrome, Firefox, Safari, Edge)
-  - İnternet bağlantısı
-  - Minimum 2GB RAM
-  - Herhangi bir işletim sistemi (Windows, macOS, Linux)
-
-## Teknik Detaylar 🛠️
-- **Frontend Teknolojileri:**
-  - PHP
-  - HTML5/CSS3
-  - JavaScript
-  - Composer
-  - Modern web teknolojileri ve kütüphaneleri
-- **Backend Teknolojileri:**
-  - PHP
-  - RESTful API
-- **Veritabanı:**
-  - MySQL
-- **API:**
-  - RESTful API
-  - DeepSeek API
-
-## Güvenlik 🔒
-- **SSL/TLS Şifreleme:** Tüm veri iletimleri güvenli bir şekilde şifrelenir.
-- **Güvenli Oturum Yönetimi:** Kullanıcı oturumları güvenli bir şekilde yönetilir.
-- **Veri Şifreleme:** Hassas veriler şifrelenerek saklanır.
-- **GDPR Uyumlu Veri İşleme:** Kullanıcı verileri GDPR standartlarına uygun şekilde işlenir.
-   
-## Özellikler
-
-### 1. Ana Sayfa (TYT Sonuç Sistemi Giriş) 
-- **Tanım**: Kullanıcıyı karşılayan giriş ekranıdır.
-- **Fonksiyonlar**:
-  - 4 ana seçenek sunar:
-    - Sınav Sonuçlarım
-    - Sonuçlarını Al ile Analiz Et
-    - Kurum Sıralama
-    - Genel Sıralama
-
-### 2. TYT Sonuç Sorgulama
-- **Tanım**: Telefon numarasıyla sınav sonuçlarını görüntülemek için tasarlanmıştır.
-- **Fonksiyonlar**:
-  - Telefon numarası doğrulama.
-  - Hatalı girişlerde uyarı mesajları.
-
-### 3. Öğrenci Detayları
-- **Tanım**: Kullanıcının genel sıralama, kurum sıralaması, TYT puanı ve katılımcı sayısı gibi bilgilerini gösterir.
-- **Fonksiyonlar**:
-  - Dinamik sınav seçimi.
-  - Performans grafiklerine erişim.
-
-### 4. Performans Grafik Ekranı
-- **Tanım**: Kullanıcının TYT puanlarını ve ders bazlı net analizlerini görselleştirir.
-- **Fonksiyonlar**:
-  - Türkçe, Matematik, Sosyal ve Fen dersleri için ayrı grafikler.
-  - Kurs ve genel ortalamalar ile karşılaştırma.
-
-### 5. Kurum Sıralama
-- **Tanım**: Kuruma özel sınav sıralamalarını gösterir.
-- **Fonksiyonlar**:
-  - Katılımcıların net bilgileri.
-  - Arama ve filtreleme seçenekleri.
-
-### 6. Genel Sıralama
-- **Tanım**: Tüm kullanıcıları kapsayan genel sıralamayı görüntüler.
-- **Fonksiyonlar**:
-  - Sıralama detayları ve filtreleme.
-
-### 7. TYT Veri Analizi
-- **Tanım**: Kurs ve genel ortalamalara dayalı performans analizleri sunar.
-- **Fonksiyonlar**:
-  - En iyi kurs puanı ve net bilgileri.
-  - Dinamik grafikler.
-
-### 8. Kurs Öğrenci Tablosu
-- **Tanım**: Kursa kayıtlı öğrencilerin sınav performanslarını listeler.
-- **Fonksiyonlar**:
-  - Öğrenciler arası arama.
-  - Listeleme ve sıralama.
-
-### 9. Kurs Giriş Ekranı
-- **Tanım**: Kullanıcıların kurs erişim kodlarıyla giriş yapmasını sağlar.
-- **Fonksiyonlar**:
-  - Kod doğrulama ve giriş yönlendirme.
-  - Hatalı girişlerde uyarı sistemi.
-
-### 10. Online Deneme Katılım Ekranı
-- **Tanım**: Kullanıcıların online olarak tyt deneme sınavlarına katılım yapmasını sağlar.
-- **Fonksiyonlar**:
-  - Sınav PDF Dosyası görüntüleme ve indirme.
-  - Kişisel bilgileri ile sonuçları gönderme.
-    
-### 11. Admin Ekranı
-- **Tanım**: Admin giriş ve verilerin yönetimini sağlar.
-- **Fonksiyonlar**:
-  - Yetki doğrulama ve giriş.
-  - Sınav sonuçları excelden yükleme ve tüm verileri silme.
-  - Veriler arası arama ve filtreleme.
-  - Verileri detaylı düzenleme ve silme.
-  - Online Sınav Ekleme/Silme ve Online Sınav Sonuçları Görüntüleme
-    
-## Sürüm Geçmişi 📋
-### v1.0.0 (21.01.2025)
-- İlk sürüm yayınlandı
-- Online katılım modülü eklendi
-- Temel özellikler implementasyonu
-
-## Görseller ve Linkler
-
-1. **Ana Sayfa: "TYT Sonuç Sistemi - Giriş"**:
-2. https://cdn.raxana.net/photos/679102f159835_tytdeneme-modul-2.jpeg
-
-3. **Sonuç Sorgulama Sayfası: "TYT Sonuç Sorgulama"**:
-4. https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
-
-5. **Öğrenci Detayları Sayfası: "Öğrenci Detayları ve Sıralamalar"**:  
-   https://cdn.raxana.net/photos/679102f161b06_tytdeneme-modul-4.jpeg
-   https://cdn.raxana.net/photos/679102f160e2f_tytdeneme-modul-5.jpeg
-
-6. **Performans Grafik Sayfası: "Performans Analizi ve Ders Bazlı Grafikler"**:  
-   https://cdn.raxana.net/photos/679102f1689ef_tytdeneme-modul-6.jpeg
-   https://cdn.raxana.net/photos/679102f184fc0_tytdeneme-modul-1.jpeg
-
-7. **Kurum Sıralama Sayfası: "Kurum Bazlı Sıralama"**:
-8. https://cdn.raxana.net/photos/679102f17c16b_tytdeneme-modul-7.jpeg
-
-9. **Genel Sıralama Sayfası: "Genel Sıralama Tablosu"**:
-10. https://cdn.raxana.net/photos/679102f167416_tytdeneme-modul-8.jpeg
-
-11. **Kurs Giriş Sayfası: "Kurs Giriş - Erişim Kodunuzu Girin"**:
-12. https://cdn.raxana.net/photos/679102f1481ee_tytdeneme-modul-9.jpeg
-
-13. **Kurs Öğrenci Tablosu Sayfası: "Kurs Öğrenci Performansı"**:
-14. https://cdn.raxana.net/photos/679102f1852d2_tytdeneme-modul-11.jpeg)
-
-15. **TYT Veri Analizi Sayfası: "TYT Veri Analizi ve Ortalamalar":**
-16. https://cdn.raxana.net/photos/679102f18264d_tytdeneme-modul-10.jpeg
-   
-## Lisans 📄
-Bu proje **Proprietary** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
-
-## İletişim 📧
-- **Proje Sorumlusu:** Arda Karaosmanoğlu
-- **E-posta:** arda@raxana.net
-- **Website:** Raxana.NET
-
+---
+*Note: This is a documentation-only repository focused on maintaining clear and organized project information.*
